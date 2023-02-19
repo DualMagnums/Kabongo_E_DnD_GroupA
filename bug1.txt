@@ -1,4 +1,4 @@
-The 4 lines of code used to fix bug one are:
+Bug 1 was the scenario where puzzle piece would stack, and these are the 4 lines of code used to fix it:
 
 	if (this.children.length > 0) {
 		console.log('Cannot stack puzzle pieces');
