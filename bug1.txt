@@ -1,0 +1,6 @@
+The 4 lines of code used to fix bug one are:
+
+	if (this.children.length > 0) {
+		console.log('Cannot stack puzzle pieces');
+		return;
+	}
